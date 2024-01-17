@@ -5,6 +5,7 @@
         return c >= 'a' && c <= 'z';
     }
 
+
     static void Main()
     {
         char testChar = 'g';
