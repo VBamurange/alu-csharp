@@ -1,15 +1,18 @@
-﻿public class Character
-{
-    public static bool IsLower(char c)
-    {
-        return c >= 'a' && c <= 'z';
-    }
+﻿using System;
 
+class Character{
 
-    static void Main()
-    {
-        char testChar = 'g';
-        bool result = IsLower(testChar);
-        Console.WriteLine($"Is '{testChar}' lowercase? {result}");
+    static List<char> lowerCase = new List<char>();
+    public static bool IsLower(char c){
+
+        for(char i = 'a'; i <= 'z'; i++){
+            lowerCase.Add(i);
+        }
+
+        if(lowerCase.Contains(c)){
+            return true;
+        }else{
+            return false;
+        }
     }
 }
