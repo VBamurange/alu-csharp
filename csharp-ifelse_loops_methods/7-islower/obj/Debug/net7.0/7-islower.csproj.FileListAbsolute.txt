@@ -1,0 +1,15 @@
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\bin\Debug\net7.0\7-islower.exe
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\bin\Debug\net7.0\7-islower.deps.json
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\bin\Debug\net7.0\7-islower.runtimeconfig.json
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\bin\Debug\net7.0\7-islower.dll
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\bin\Debug\net7.0\7-islower.pdb
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\obj\Debug\net7.0\7-islower.csproj.AssemblyReference.cache
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\obj\Debug\net7.0\7-islower.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\obj\Debug\net7.0\7-islower.AssemblyInfoInputs.cache
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\obj\Debug\net7.0\7-islower.AssemblyInfo.cs
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\obj\Debug\net7.0\7-islower.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\obj\Debug\net7.0\7-islower.dll
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\obj\Debug\net7.0\refint\7-islower.dll
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\obj\Debug\net7.0\7-islower.pdb
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\obj\Debug\net7.0\7-islower.genruntimeconfig.cache
+C:\Users\Lenovo\alu-csharp\csharp-ifelse_loops_methods\7-islower\obj\Debug\net7.0\ref\7-islower.dll
