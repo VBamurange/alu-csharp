@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\csharp-ifelse_loops_methods.csproj": {}
+    "c:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\csharp-ifelse_loops_methods.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\csharp-ifelse_loops_methods.csproj": {
+    "c:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\csharp-ifelse_loops_methods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\csharp-ifelse_loops_methods.csproj",
+        "projectUniqueName": "c:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\csharp-ifelse_loops_methods.csproj",
         "projectName": "csharp-ifelse_loops_methods",
-        "projectPath": "C:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\csharp-ifelse_loops_methods.csproj",
+        "projectPath": "c:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\csharp-ifelse_loops_methods.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\obj\\",
+        "outputPath": "c:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
