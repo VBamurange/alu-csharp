@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\0-positive_or_negative\\0-positive_or_negative.csproj": {}
+    "C:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\0-positive_or_negative\\0-positive_or_negative.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\0-positive_or_negative\\0-positive_or_negative.csproj": {
+    "C:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\0-positive_or_negative\\0-positive_or_negative.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\0-positive_or_negative\\0-positive_or_negative.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\0-positive_or_negative\\0-positive_or_negative.csproj",
         "projectName": "0-positive_or_negative",
-        "projectPath": "c:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\0-positive_or_negative\\0-positive_or_negative.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\0-positive_or_negative\\0-positive_or_negative.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\0-positive_or_negative\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\alu-csharp\\csharp-ifelse_loops_methods\\0-positive_or_negative\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
