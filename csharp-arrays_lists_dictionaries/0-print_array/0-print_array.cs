@@ -21,7 +21,7 @@ class Array
             NumberList[i] = i;
             if (i < size - 1)
             {
-                Console.Write($"{i}");
+                Console.Write($"{i} ");
             }
             else
             {
