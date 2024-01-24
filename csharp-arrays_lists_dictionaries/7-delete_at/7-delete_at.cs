@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-class List{
+public class List{
     public static List<int> DeleteAt(List<int> myList, int index){
         int ListSize = myList.Count;
         List<int> theeList = new List<int>();
