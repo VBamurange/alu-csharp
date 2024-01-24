@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-class ArrayUtility
+public class Array
 {
     public static void Reverse(int[] array)
     {
