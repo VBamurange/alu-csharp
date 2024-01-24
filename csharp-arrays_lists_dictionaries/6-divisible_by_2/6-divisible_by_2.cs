@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 
 class List{
-    public static List<bool> DivBy2(List<int> myList){
+    public static List<bool> DivisibleBy2(List<int> myList){
         List<bool> BoolList = new List<bool>();
 
         foreach(int value in myList){
@@ -11,6 +11,7 @@ class List{
                 BoolList.Add(false);
             }
         }
+
         return BoolList;
     }
 }
