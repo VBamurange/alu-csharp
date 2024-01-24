@@ -6,7 +6,7 @@ public class Array
     {
         if (array == null || array.Length == 0)
         {
-            Console.WriteLine();
+            Console.WriteLine("Array is null");
             return;
         }
         for (int i = array.Length - 1; i >= 0; i--)
