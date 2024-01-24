@@ -3,7 +3,7 @@
 class Dictionary{
 
     public static void PrintSorted(Dictionary<string, string> myDict){
-        var theeKeys = myDict.Keys.OrderBy(theeKeys => key).ToList();
+        var theeKeys = myDict.Keys.OrderBy(key => key).ToList();
 
         foreach (var key in theeKeys)
         {
