@@ -9,7 +9,7 @@ class List{
             return null;
         }else{
             List<int> theeList = new List<int>();
-            for(int i = 0; i < size; i ++){
+            for(int i = 0; i < size; i++){
                 Console.Write(i + " ");
                 theeList.Add(i);
             }
