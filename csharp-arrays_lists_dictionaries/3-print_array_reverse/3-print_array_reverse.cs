@@ -11,7 +11,7 @@ class Array{
             for(int i = size - 1; i >= 0; i--){
                 Console.Write(array[i] + " ");
                 }
-                    Console.WriteLine();
+                    Console.WriteLine(array[0] + " ");
              }else{
                 Console.WriteLine();
              }
