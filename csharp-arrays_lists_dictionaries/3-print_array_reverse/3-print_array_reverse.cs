@@ -6,7 +6,7 @@ class Array{
      
        if(array != null){
             int size = array.Length;
-        if(size > 0 && size != null){
+        if(size > 0){
 
             for(int i = size - 1; i >= 0; i--){
                 Console.Write(array[i] + " ");
