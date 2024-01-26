@@ -8,7 +8,7 @@ class Dictionary{
             return "None";
         }
 
-        string bestKey = null;
+        string? bestKey = null;
         int highestScore = int.MinValue;
 
         foreach (var entry in myList)
