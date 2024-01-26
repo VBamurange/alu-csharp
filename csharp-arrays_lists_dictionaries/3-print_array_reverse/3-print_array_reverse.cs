@@ -6,8 +6,7 @@ public class Array
     {
         if (array == null || array.Length == 0)
         {
-            Console.WriteLine();
-            return;
+            throw new ArgumentNullException(nameof(array));
         }
 
         for (int i = array.Length - 1; i >= 0; i--)
