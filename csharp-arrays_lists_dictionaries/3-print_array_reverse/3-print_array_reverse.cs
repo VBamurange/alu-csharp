@@ -5,21 +5,24 @@ class Array{
     public static void Reverse(int?[] array)
     {
      
-       if(array != null){
-            int size = array.Length;
+       if(array == null){
+            Console.WriteLine();
+            return;
+            }
+
+        int size = array.Length;
+
         if(size > 0){
 
-            for(int i = size - 1; i >= 0; i--){
+            for(int i = size - 1; i >= 0; i--)
+            {
                 Console.Write(array[i] + " ");
                 }
                     Console.WriteLine(array[0] + " ");
-             }else{
+             }
+             else
+             {
                 Console.WriteLine();
              }
-       }else{
-        Console.WriteLine();
        }
-       
-     
     }
-}
