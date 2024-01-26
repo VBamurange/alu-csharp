@@ -1,6 +1,7 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 
-class List{
+public class List{
 
     public static List<int> DeleteAt(List<int> myList, int index){
         int ListSize = myList.Count;
