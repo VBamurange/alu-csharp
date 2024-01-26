@@ -9,6 +9,7 @@ public class Array
             Console.WriteLine();
             return;
         }
+
         for (int i = array.Length - 1; i >= 0; i--)
         {
             Console.Write(array[i]);
