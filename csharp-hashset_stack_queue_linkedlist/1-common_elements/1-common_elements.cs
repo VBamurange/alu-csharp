@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class List
 {
-    public static List<int> CommonElements(List<int> list1, List<int>)
+    public static List<int> CommonElements(List<int> list1, List<int> list2)
     {
         HashSet<int> set1 = new HashSet<int>(list1);
         List<int> commonElements = new List<int>();
@@ -14,9 +14,9 @@ public class List
             {
                 commonElements.Add(element);
             }
-        } 
-        
-        commonElements.Sort();
+        }
+
+        commonElements.Sort(); // Manually sort the list
         return commonElements;
-           }
+    }
 }
