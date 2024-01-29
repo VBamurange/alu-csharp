@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 
 class MyQueue{
 
@@ -37,16 +38,16 @@ class MyQueue{
 
         aQueue.Enqueue(newItem);
 
-        if(aQueue.Contains(search)){
+        if(aQueue.Contains(search))
+        {
             Console.WriteLine($"Queue contains \"{search}\": True");
         }
 
-
-        for(int i = 0; i <= aQueue.Count; i++){
-            if(aQueue.Contains(search)){
-                string temp = aQueue.Dequeue();
-            }
+        while(aQueue.Contains(search))
+        {
+            string temp = aQueue.Dequeue();
         }
+
 
         return aQueue;
        
