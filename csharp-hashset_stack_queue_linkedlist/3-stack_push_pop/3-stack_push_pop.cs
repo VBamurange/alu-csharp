@@ -16,7 +16,7 @@ public class MyStack
             Console.WriteLine("Stack is empty");
         }
         bool containsSearch = aStack.Contains(search);
-        Console.WriteLine("Stack contains \"" + search + "\": + containsSearch);
+        Console.WriteLine($"Stack contains \"{search}\": {containsSearch}");
 
         if (containsSearch)
         {
