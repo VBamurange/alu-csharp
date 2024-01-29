@@ -15,6 +15,6 @@ class LList{
                 newList.AddFirst(i);
             }
         }
-        return newList;
+        return linkedList;
     }
 }
