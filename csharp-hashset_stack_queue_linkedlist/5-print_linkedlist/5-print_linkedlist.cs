@@ -12,7 +12,7 @@ class LList{
         else{
             for(int i = 0; i < size; i++){
                 Console.WriteLine(i + "");
-                newList.AddFirst(i);
+                linkedList.AddFirst(i);
             }
         }
         return linkedList;
