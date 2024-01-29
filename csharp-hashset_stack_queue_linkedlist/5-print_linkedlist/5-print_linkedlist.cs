@@ -1,7 +1,6 @@
-﻿using System;
-using Systems.Collections.Generic;
+﻿using System.Collections;
 
-public class LList{
+class LList{
     public static LinkedList<int> CreatePrint(int size){
 
         LinkedList<int> linkedList = new LinkedList<int>();
@@ -10,13 +9,12 @@ public class LList{
         {
             return linkedList;
         }
-
-        for (int i = 0; i < size; i++)
-        {
-            linkedList.AddLast(i);
-            Console.WriteLine(i);
+        else{
+            for(int i = 0; i < size; i++){
+                Console.WriteLine(i + "");
+                newList.AddFirst(i);
+            }
         }
-
-        return linkedList;
+        return newList;
     }
 }
