@@ -8,10 +8,12 @@ class LList{
             while(current != null){
                 if(current.Value >= n){
                     myLList.AddBefore(current, n);
-                    return current.Previous;
+                    return current.Previous ?? myLList.First;
                 }
               current = current.Next;
             }
-            return current;
+
+            myLList.AddLast(n);
+            return myLList.Last;
         }
     }
