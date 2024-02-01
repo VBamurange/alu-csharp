@@ -10,10 +10,10 @@ class LList
             return;
         }
 
-        LinkedListNode<int> currentNode = myLList.First;
+        LinkedListNode<int> currentNode = myLList.First!;
         for (int i = 0; i < index; ++i)
         {
-            currentNode = currentNode.Next;
+            currentNode = currentNode.Next!;
         }
 
         if (currentNode != null)
