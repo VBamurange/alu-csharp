@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class MyStack
 {
-    public static MyStack<string> Info(Stack<string> aStack, string newItem, string search)
+    public static Stack<string> Info(Stack<string> aStack, string newItem, string search)
     {
         Console.WriteLine("Number of items: " + aStack.Count);
 
