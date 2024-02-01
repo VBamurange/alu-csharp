@@ -7,7 +7,7 @@ class LList{
         if (myLList.Count == 0){
             return myLList.AddFirst(n);
         }
-            LinkedListNode<int> myNode = myLList.First;
+            LinkedListNode<int> myNode = myLList.First!;
             if (myNode.Value >= n){
              return myLList.AddFirst(n);
             }
