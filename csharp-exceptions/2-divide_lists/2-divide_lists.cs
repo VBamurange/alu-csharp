@@ -9,7 +9,7 @@ class List{
         for(int i = 0; i < listLength ; i++){
             try{
                 sonder = list1[i] / list2[i];
-                result.Add(sonder)
+                result.Add(sonder);
             }catch(ArgumentOutOfRangeException){
                 Console.WriteLine("Out of range");
             }catch(DivideByZeroException){
