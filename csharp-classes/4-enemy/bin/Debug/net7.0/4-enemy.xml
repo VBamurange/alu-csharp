@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>4-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary>
+            Zombie represents a single zombie enemy with optional initial health and name.
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary>
+            Initializes a new instance of the Zombie class with default health (0) and name "(No name)".
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor(System.Int32,System.String)">
+            <summary>
+            Initializes a new instance of the Zombie class with the specified initial health and name.
+            </summary>
+            <param name="initialHealth">The initial health to assign (must be non-negative).</param>
+            <param name="initialName">The initial name to assign (optional, defaults to "(No name)").</param>
+            <exception cref="T:System.ArgumentException">Thrown if health is less than 0.</exception>
+        </member>
+        <member name="M:Enemies.Zombie.GetHealth">
+            <summary>
+            Gets the current health of the zombie.
+            </summary>
+            <returns>The zombie's health.</returns>
+        </member>
+        <member name="M:Enemies.Zombie.GetName">
+            <summary>
+            Gets the current name of the zombie.
+            </summary>
+            <returns>The zombie's name.</returns>
+        </member>
+        <member name="M:Enemies.Zombie.TakeDamage(System.Int32)">
+            <summary>
+            Reduces the zombie's health by the specified amount, capped at 0.
+            </summary>
+            <param name="damage">The amount of damage to inflict.</param>
+        </member>
+        <member name="M:Enemies.Zombie.Main(System.String[])">
+            <summary>
+            Main method showcases creating and interacting with Zombie objects.
+            </summary>
+        </member>
+    </members>
+</doc>
