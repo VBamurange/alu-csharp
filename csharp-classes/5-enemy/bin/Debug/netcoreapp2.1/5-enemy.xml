@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>5-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary>
+            Represents a single zombie enemy with optional initial health and name.
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary>
+            Initializes a new instance of the Zombie class with default health (0) and name "(No name)".
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor(System.Int32,System.String)">
+            <summary>
+            Initializes a new instance of the Zombie class with the specified initial health and name.
+            </summary>
+            <param name="initialHealth">The initial health to assign (must be non-negative).</param>
+            <param name="initialName">The initial name to assign (optional, defaults to "(No name)").</param>
+            <exception cref="T:System.ArgumentException">Thrown if health is less than 0.</exception>
+        </member>
+        <member name="P:Enemies.Zombie.Health">
+            <summary>
+            Gets or sets the zombie's current health.
+            </summary>
+        </member>
+        <member name="P:Enemies.Zombie.Name">
+            <summary>
+            Gets or sets the zombie's name.
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.TakeDamage(System.Int32)">
+            <summary>
+            Reduces the zombie's health by the specified amount, ensuring the health stays non-negative.
+            </summary>
+            <param name="damage">The amount of damage to inflict (must be non-negative).</param>
+        </member>
+        <member name="M:Enemies.Zombie.ToString">
+            <summary>
+            Provides a string representation of the zombie, including name and health.
+            </summary>
+            <returns>A formatted string describing the zombie.</returns>
+        </member>
+        <member name="M:Enemies.Zombie.Main(System.String[])">
+            <summary>
+            Main method demonstrates creating and interacting with Zombie objects.
+            </summary>
+        </member>
+    </members>
+</doc>
