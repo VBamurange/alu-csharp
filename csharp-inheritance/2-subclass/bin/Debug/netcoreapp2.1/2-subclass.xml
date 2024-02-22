@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>2-subclass</name>
+    </assembly>
+    <members>
+        <member name="M:Obj.IsOnlyASubclass(System.Type,System.Type)">
+            <summary>
+            Verifies the relationship between the derived and base types.
+            </summary>
+            <param name="derivedType">The derived type to check.</param>
+            <param name="baseType">The base type to check against.</param>
+            <returns>Returns true if the derivedType is a subclass of baseType, otherwise false.</returns>
+        </member>
+    </members>
+</doc>
