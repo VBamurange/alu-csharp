@@ -6,7 +6,8 @@ class Obj{
         if(obj is Array){
             return true;
         }
-
+        
         return false;
     }
+
 }
