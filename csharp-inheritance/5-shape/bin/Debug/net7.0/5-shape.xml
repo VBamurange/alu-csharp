@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>5-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary>
+            Represents a basic shape.
+            </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary>
+            Calculates the area of the shape.
+            </summary>
+            <returns>The area of the shape.</returns>
+            <exception cref="T:System.NotImplementedException">Thrown when the method is not implemented in a derived class.</exception>
+        </member>
+        <member name="T:Circle">
+            <summary>
+            Represents a circle, which is a derived class of Shape.
+            </summary>
+        </member>
+    </members>
+</doc>
