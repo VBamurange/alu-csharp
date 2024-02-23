@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>6-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary>
+            Base class for all shapes to be represented.
+            </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary>
+            Empty area calculation
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:Rectangle">
+            <summary>
+            Rectangle class inherits from Shapes class
+            </summary>
+        </member>
+        <member name="P:Rectangle.Width">
+            <summary>
+            Manages width
+            </summary>
+        </member>
+        <member name="P:Rectangle.Height">
+            <summary>
+            Manages height
+            </summary>
+        </member>
+    </members>
+</doc>
