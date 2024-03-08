@@ -1,0 +1,16 @@
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\bin\Debug\net7.0\3-magnitude.exe
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\bin\Debug\net7.0\3-magnitude.deps.json
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\bin\Debug\net7.0\3-magnitude.runtimeconfig.json
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\bin\Debug\net7.0\3-magnitude.dll
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\bin\Debug\net7.0\3-magnitude.pdb
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\bin\Debug\net7.0\3-magnitude.xml
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\obj\Debug\net7.0\3-magnitude.csproj.AssemblyReference.cache
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\obj\Debug\net7.0\3-magnitude.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\obj\Debug\net7.0\3-magnitude.AssemblyInfoInputs.cache
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\obj\Debug\net7.0\3-magnitude.AssemblyInfo.cs
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\obj\Debug\net7.0\3-magnitude.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\obj\Debug\net7.0\3-magnitude.dll
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\obj\Debug\net7.0\refint\3-magnitude.dll
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\obj\Debug\net7.0\3-magnitude.pdb
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\obj\Debug\net7.0\3-magnitude.genruntimeconfig.cache
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\3-magnitude\obj\Debug\net7.0\ref\3-magnitude.dll
