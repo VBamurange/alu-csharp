@@ -1,7 +1,8 @@
 ﻿using System;
 
 class VectorMath {
-    
+   
+
     public static double[] CrossProduct(double[] vector1, double[] vector2) {
 
         if (vector1.Length == 3 && vector2.Length == 3) {
@@ -19,4 +20,5 @@ class VectorMath {
 
         return new double[] { -1 };
     }
+
 }
