@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>33-inverse_2D</name>
+    </assembly>
+    <members>
+        <member name="M:MatrixMath.Inverse2D(System.Double[0:,0:])">
+            <summary>
+            Calculates the inverse of a 2D matrix.
+            </summary>
+        </member>
+    </members>
+</doc>
