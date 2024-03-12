@@ -1,0 +1,5 @@
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\25-matrix_transpose\obj\Debug\net7.0\25-matrix_transpose.csproj.AssemblyReference.cache
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\25-matrix_transpose\obj\Debug\net7.0\25-matrix_transpose.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\25-matrix_transpose\obj\Debug\net7.0\25-matrix_transpose.AssemblyInfoInputs.cache
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\25-matrix_transpose\obj\Debug\net7.0\25-matrix_transpose.AssemblyInfo.cs
+C:\Users\Lenovo\alu-csharp\csharp-linear_algebra\25-matrix_transpose\obj\Debug\net7.0\25-matrix_transpose.csproj.CoreCompileInputs.cache

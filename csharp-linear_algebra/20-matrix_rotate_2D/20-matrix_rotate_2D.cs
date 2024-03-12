@@ -1,18 +1,4 @@
 ﻿using System;
-
-
-class Program{
-    
-    public static void Main(string[] arg){
-        
-        double[,] TestMatrix = { { 1, 2}, {3, 4}};
-
-        double[,] resultMatrix = MatrixMath.Rotate2D(TestMatrix, 1);
-        
-        Console.WriteLine($"{resultMatrix[0,0]}  --  {resultMatrix[0,1]}\n{resultMatrix[1,0]}  --  {resultMatrix[1,1]}");
-
-    }
-}
 class MatrixMath{
     public static double[,] Rotate2D(double[,] matrix, double angle){
         double[,] rotationMatrix = {
