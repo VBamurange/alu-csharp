@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>30-cross_product</name>
+    </assembly>
+    <members>
+        <member name="M:VectorMath.CrossProduct(System.Double[],System.Double[])">
+            <summary>
+            Calculates the cross product of two 3D vectors.
+            </summary>
+        </member>
+    </members>
+</doc>
