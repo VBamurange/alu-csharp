@@ -12,24 +12,37 @@ public class Queue<T>  {
 /// class Node
 /// </summary>
     public class Node{
+        /// <summary>
+        /// value of node
+        /// </summary>
 
         public T? Value;
+
+        /// <summary>
+        /// reference to the next node in queue
+        /// </summary>
         public Node? Next;
 
+        /// <summary>
+        /// initializes values
+        /// </summary>
+        /// <param name="value"></param>
         public Node(T value){
             Value = value;
             Next = null;
         }
     }
 
-// node 1
+    // head node
     protected Node? head;
-    // node 2
+    // tail node
     protected Node? tail;
-    // counts nodes
+    // counts the number of nodes
     int count;
 
-// constructor 
+/// <summary>
+/// queue method
+/// </summary>
     public Queue()
     {
         head = null;
