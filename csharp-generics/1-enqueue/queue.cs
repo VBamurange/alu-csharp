@@ -1,60 +1,78 @@
 ﻿using System;
+
+
 /// <summary>
-/// class queue
+///public class queue
 /// </summary>
 /// <typeparam name="T"></typeparam>
-public class Queue<T> {
-    /// <summary>
-    /// public class Node
-    /// </summary>
-    public class Node {
-        public T value {get; set; }
-        public Node next { get; set;}
+public class Queue<T>  {
 
-        public Node(T value) {
-            this.value = value;
-            this.next = null;
+
+/// <summary>
+/// class Node
+/// </summary>
+    public class Node{
+
+        public T? Value;
+        public Node? Next;
+
+        public Node(T value){
+            Value = value;
+            Next = null;
         }
     }
 
-    private Node head;
-    private Node tail;
-    private int count;
+// node 1
+    protected Node? head;
+    // node 2
+    protected Node? tail;
+    // counts nodes
+    int count;
 
+// constructor 
     public Queue()
     {
-        this.head = null;
-        this.tail = null;
-        this.count = 0;
+        head = null;
+        tail = null;
+        count = 0;
     }
+
+
 /// <summary>
 /// enqueue method
 /// </summary>
 /// <param name="value"></param>
-    public void Enqueue( T value)
-    {
-        Node newNode = new Node(value);
+    public void Enqueue(T? value){
 
-        if (tail != null) {
-            tail.next = newNode;
-        }  
-        tail = newNode;
-        
-        if (tail != null)
-        {
-            tail = newNode;
-        }  
-        if (head == null) {
+        Node newNode = new Node(value!);
+    
+        if(head == null){
             head = newNode;
+            tail = newNode;
+        }else{
+            tail!.Next = newNode;
+            tail = newNode;
         }
-        count++;
-        
+         count++;
     }
-    /// <summary>
-    /// count method
-    /// </summary>
-    /// <returns></returns>
-    public int Count() {
+
+    
+    
+
+/// <summary>
+/// checktype method
+/// </summary>
+
+    public Type CheckType(){
+        return typeof(T);
+    }
+
+/// <summary>
+/// count method
+/// </summary>
+
+    public int Count(){
         return count;
     }
+    
 }

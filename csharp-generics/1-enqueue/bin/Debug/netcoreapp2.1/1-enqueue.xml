@@ -5,14 +5,14 @@
     </assembly>
     <members>
         <member name="T:Queue`1">
-            <summary>
-            class queue
-            </summary>
-            <typeparam name="T"></typeparam>
+             <summary>
+            public class queue
+             </summary>
+             <typeparam name="T"></typeparam>
         </member>
         <member name="T:Queue`1.Node">
             <summary>
-            public class Node
+            class Node
             </summary>
         </member>
         <member name="M:Queue`1.Enqueue(`0)">
@@ -21,11 +21,15 @@
             </summary>
             <param name="value"></param>
         </member>
+        <member name="M:Queue`1.CheckType">
+            <summary>
+            checktype method
+            </summary>
+        </member>
         <member name="M:Queue`1.Count">
             <summary>
             count method
             </summary>
-            <returns></returns>
         </member>
     </members>
 </doc>
