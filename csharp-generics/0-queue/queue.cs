@@ -3,9 +3,12 @@
 /// <summary>
 /// public class queue
 /// </summary>
-/// <typeparam name="T"></typeparam>
 public class Queue<T>
-{
+{   
+    /// <summary>
+    /// The CheckType method
+    /// </summary>
+
     public Type CheckType()
     {
         return typeof(T);

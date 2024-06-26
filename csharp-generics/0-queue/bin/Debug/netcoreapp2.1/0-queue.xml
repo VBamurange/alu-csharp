@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>0-queue</name>
+    </assembly>
+    <members>
+        <member name="T:Queue`1">
+            <summary>
+            public class queue
+            </summary>
+        </member>
+        <member name="M:Queue`1.CheckType">
+            <summary>
+            The CheckType method
+            </summary>
+        </member>
+    </members>
+</doc>
