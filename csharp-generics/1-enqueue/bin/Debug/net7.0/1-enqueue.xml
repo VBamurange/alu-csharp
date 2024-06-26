@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>1-enqueue</name>
+    </assembly>
+    <members>
+        <member name="T:Queue`1">
+            <summary>
+            class queue
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:Queue`1.Node">
+            <summary>
+            public class Node
+            </summary>
+        </member>
+        <member name="M:Queue`1.Enqueue(`0)">
+            <summary>
+            enqueue method
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Queue`1.Count">
+            <summary>
+            count method
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
