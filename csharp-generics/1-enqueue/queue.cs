@@ -33,9 +33,13 @@ public class Queue<T>  {
         }
     }
 
-    // head node
+    /// <summary>
+    /// head node
+    /// </summary>
     protected Node? head;
-    // tail node
+    /// <summary>
+    /// tail node
+    /// </summary>
     protected Node? tail;
     // counts the number of nodes
     int count;
