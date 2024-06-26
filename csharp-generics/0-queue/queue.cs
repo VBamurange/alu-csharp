@@ -1,6 +1,7 @@
 ﻿using System;
+
 /// <summary>
-/// queue of type defined
+/// public class queue
 /// </summary>
 /// <typeparam name="T"></typeparam>
 public class Queue<T>
