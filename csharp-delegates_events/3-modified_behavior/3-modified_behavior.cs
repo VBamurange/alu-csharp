@@ -92,7 +92,7 @@ public class Player {
             Console.WriteLine($"{name} heals 0 HP!");
         }else{
             hp += heal;
-            Console.WriteLine($"{name} heals {heal} HP!");
+            Console.WriteLine($"{name} heals {Math.Round(heal,1)} HP!");
         }
         ValidateHP(hp);
     }
