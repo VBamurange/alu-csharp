@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>1-user_interface</name>
+    </assembly>
+    <members>
+        <member name="T:Base">
+            <summary>
+            abstract class Base
+            </summary>
+        </member>
+        <member name="F:Base.name">
+            <summary>
+            name property
+            </summary>
+        </member>
+        <member name="M:Base.ToString">
+            <summary>
+            ToString() method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:IInteractive">
+            <summary>
+            IInteractive interface
+            </summary>
+        </member>
+        <member name="M:IInteractive.Interact">
+            <summary>
+            interact method
+            </summary>
+        </member>
+        <member name="T:IBreakable">
+            <summary>
+            IBreakable interface
+            </summary>
+        </member>
+        <member name="P:IBreakable.durability">
+            <summary>
+            durability
+            </summary>
+        </member>
+        <member name="M:IBreakable.Break">
+            <summary>
+            break method
+            </summary>
+        </member>
+        <member name="T:ICollectable">
+            <summary>
+            ICollectable interface
+            </summary>
+        </member>
+        <member name="P:ICollectable.isCollected">
+            <summary>
+            isCollected
+            </summary>
+        </member>
+        <member name="M:ICollectable.Collect">
+            <summary>
+            collect method
+            </summary>
+        </member>
+        <member name="T:TestObject">
+            <summary>
+            testObject class that inherits from base
+            </summary>
+        </member>
+        <member name="P:TestObject.durability">
+            <summary>
+            durability implementation
+            </summary>
+        </member>
+        <member name="P:TestObject.isCollected">
+            <summary>
+            isCollected implementation
+            </summary>
+        </member>
+        <member name="M:TestObject.Interact">
+            <summary>
+            interact method
+            </summary>
+        </member>
+        <member name="M:TestObject.Break">
+            <summary>
+            break method
+            </summary>
+        </member>
+        <member name="M:TestObject.Collect">
+            <summary>
+            collect method
+            </summary>
+        </member>
+    </members>
+</doc>
