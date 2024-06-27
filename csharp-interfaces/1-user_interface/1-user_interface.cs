@@ -6,7 +6,7 @@ public abstract class Base {
 /// <summary>
 /// name property
 /// </summary>
-    public string? name;
+    public string? name { get ; set; }
 /// <summary>
 /// ToString() method
 /// </summary>
