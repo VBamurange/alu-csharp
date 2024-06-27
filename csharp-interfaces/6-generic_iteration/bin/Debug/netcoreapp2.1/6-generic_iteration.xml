@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>6-generic_iteration</name>
+    </assembly>
+    <members>
+        <member name="T:Base">
+            <summary>
+            abstract class Base
+            </summary>
+        </member>
+        <member name="P:Base.name">
+            <summary>
+            name property
+            </summary>
+        </member>
+        <member name="M:Base.ToString">
+            <summary>
+            ToString() method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:IInteractive">
+            <summary>
+            IInteractive interface
+            </summary>
+        </member>
+        <member name="M:IInteractive.Interact">
+            <summary>
+            interact method
+            </summary>
+        </member>
+        <member name="T:IBreakable">
+            <summary>
+            IBreakable interface
+            </summary>
+        </member>
+        <member name="P:IBreakable.durability">
+            <summary>
+            durability
+            </summary>
+        </member>
+        <member name="M:IBreakable.Break">
+            <summary>
+            break method
+            </summary>
+        </member>
+        <member name="T:ICollectable">
+            <summary>
+            ICollectable interface
+            </summary>
+        </member>
+        <member name="P:ICollectable.isCollected">
+            <summary>
+            isCollected
+            </summary>
+        </member>
+        <member name="M:ICollectable.Collect">
+            <summary>
+            collect method
+            </summary>
+        </member>
+        <member name="T:Door">
+            <summary>
+            class Door
+            </summary>
+        </member>
+        <member name="M:Door.#ctor(System.String)">
+            <summary>
+            constructor that sets the value of name
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Door.Interact">
+            <summary>
+            Interact() implementation
+            </summary>
+        </member>
+        <member name="T:Decoration">
+            <summary>
+            decoration base inheriting from base, iinteractive, ibreakable
+            </summary>
+        </member>
+        <member name="P:Decoration.isQuestItem">
+            <summary>
+            isquestitem prp
+            </summary>
+        </member>
+        <member name="P:Decoration.durability">
+            <summary>
+            durability prp
+            </summary>
+        </member>
+        <member name="M:Decoration.#ctor(System.String,System.Int32,System.Boolean)">
+            <summary>
+            Decoration
+            </summary>
+            <param name="Name"></param>
+            <param name="durability"></param>
+            <param name="isQuestItem"></param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:Decoration.Interact">
+            <summary>
+            interact implementation
+            </summary>
+        </member>
+        <member name="M:Decoration.Break">
+            <summary>
+            break implementation
+            </summary>
+        </member>
+        <member name="T:Key">
+            <summary>
+            class key inheriting from base and iscollectable
+            </summary>
+        </member>
+        <member name="P:Key.isCollected">
+            <summary>
+            iscollected prp
+            </summary>
+        </member>
+        <member name="M:Key.#ctor(System.String,System.Boolean)">
+            <summary>
+            key constructor
+            </summary>
+            <param name="Name"></param>
+            <param name="isCollected"></param>
+        </member>
+        <member name="M:Key.Collect">
+            <summary>
+            collect method
+            </summary>
+        </member>
+        <member name="T:Objs`1">
+            <summary>
+            genric Objs class
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Objs`1.Add(`0)">
+            <summary>
+            add items
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:Objs`1.GetEnumerator">
+            <summary>
+            getenumerator method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Objs`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            getenumerator implementation
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
