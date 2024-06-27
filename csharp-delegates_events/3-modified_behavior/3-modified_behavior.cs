@@ -4,13 +4,19 @@
 /// enum modifier
 /// </summary>
 public enum Modifier {
-    //weak value
+    /// <summary>
+    /// weak value
+    /// </summary>
     Weak,
-    
-    //base value
+
+    /// <summary>
+    /// base value
+    /// </summary>
     Base,
 
-    //strong value
+    /// <summary>
+    /// strong value
+    /// </summary>
     Strong
 }
 /// <summary>
