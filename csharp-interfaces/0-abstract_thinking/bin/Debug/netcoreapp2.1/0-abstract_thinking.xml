@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>0-abstract_thinking</name>
+    </assembly>
+    <members>
+        <member name="T:Base">
+            <summary>
+            abstract class Base
+            </summary>
+        </member>
+        <member name="F:Base.name">
+            <summary>
+            name property
+            </summary>
+        </member>
+        <member name="M:Base.ToString">
+            <summary>
+            ToString() method
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
