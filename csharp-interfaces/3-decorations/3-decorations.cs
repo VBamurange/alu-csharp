@@ -88,7 +88,7 @@ public class Decoration : Base, IInteractive, IBreakable {
 /// <summary>
 /// isquestitem prp
 /// </summary>
-    public bool isQuestItem { get; set ;}
+    public bool isQuestItem { get; set; }
 
 /// <summary>
 /// durability prp
@@ -98,14 +98,20 @@ public class Decoration : Base, IInteractive, IBreakable {
 /// <summary>
 /// Decoration
 /// </summary>
-/// <param name="name"></param>
+/// <param name="Name"></param>
 /// <param name="durability"></param>
 /// <param name="isQuestItem"></param>
 /// <exception cref="ArgumentException"></exception>
-    public Decoration(string name = "Decoration", int durability = 1, bool isQuestItem= false) {
+    public Decoration(string Name = "Decoration", int durability = 1, bool isQuestItem= false) {
+
+        this.isQuestItem = isQuestItem;
+        name = Name;
 
         if (durability <= 0) {
             throw new ArgumentException("Durability must be greater than 0");
+        }
+        else {
+            this.durability = durability;
         }
 
     }
@@ -130,16 +136,16 @@ public class Decoration : Base, IInteractive, IBreakable {
 /// break implementation
 /// </summary>
     public void Break() {
-        if (durability > 0) {
-            durability--;
+       
+            this.durability--;
             if (durability > 0) {
                 Console.WriteLine($"You hit the {name}. It cracks.");
             }
-            else {
+            if (durability == 0) {
                 Console.WriteLine($"You smash the {name}. What a mess.");
             }
-        }
-        else {
+        
+            if (durability < 0) {
             Console.WriteLine($"The {name} is already broken.");
         }
     }
