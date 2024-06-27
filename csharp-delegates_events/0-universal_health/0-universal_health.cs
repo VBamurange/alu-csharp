@@ -1,14 +1,13 @@
 ﻿using System;
-using System.Security.Cryptography.X509Certificates;
 
 /// <summary>
 /// class player
 /// </summary>
 public class Player {
 
-    private string name { get; set;}
-    private float maxHp { get; set;}
-    private float hp { get; set; }
+    private string name;
+    private float maxHp;
+    private float hp;
 
 /// <summary>
 /// player method
