@@ -2,7 +2,13 @@
 
 public class BaseClass {
 
-    public string id;
-    public date_created - DateTime { get; set; }
-    public date_updated - DateTime { get; set;}
+    public string? id {get; set ; }
+    public DateTime datecreated { get; set; }
+    public DateTime dateupdated { get; set; }
+
+    public BaseClass() {
+        id = Guid.NewGuid().ToString();
+        datecreated = DateTime.Now;
+        dateupdated = DateTime.Now;
+    }
 }
