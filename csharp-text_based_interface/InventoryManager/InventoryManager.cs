@@ -149,21 +149,21 @@ using InventoryLibrary;
             {
                 case "user":
                     Console.Write("Enter user name: ");
-                    var userName = Console.ReadLine();
-                    var user = new User(userName);
+                    var name = Console.ReadLine();
+                    var user = new User(name);
                     _storage.New(user);
                     break;
                 case "item":
                     Console.Write("Enter item name: ");
-                    var itemName = Console.ReadLine();
+                    var iName = Console.ReadLine();
                     Console.Write("Enter item description: ");
-                    var itemDescription = Console.ReadLine();
+                    var description = Console.ReadLine();
                     Console.Write("Enter item price: ");
                     if (float.TryParse(Console.ReadLine(), out float itemPrice))
                     {
-                        var item = new Item(itemName)
+                        var item = new Item(iName)
                         {
-                            description = itemDescription,
+                            description = description,
                             Price = itemPrice,
                             tags = new List<string>()
                         };
@@ -176,13 +176,13 @@ using InventoryLibrary;
                     break;
                 case "inventory":
                     Console.Write("Enter user id: ");
-                    var userId = Console.ReadLine();
+                    var user_id = Console.ReadLine();
                     Console.Write("Enter item id: ");
-                    var itemId = Console.ReadLine();
+                    var item_id = Console.ReadLine();
                     Console.Write("Enter quantity: ");
                     if (int.TryParse(Console.ReadLine(), out int quantity))
                     {
-                        var inventory = new Inventory(userId, itemId, quantity);
+                        var inventory = new Inventory(user_id, item_id, quantity);
                         _storage.New(inventory);
                     }
                     else
