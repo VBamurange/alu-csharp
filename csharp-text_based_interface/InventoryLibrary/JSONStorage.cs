@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 
-public class JSONStorage
+namespace InventoryLibrary {
+    public class JSONStorage
 {
     private static JSONStorage? _instance;
     private static readonly object Lock = new object();
@@ -12,7 +13,7 @@ public class JSONStorage
     private readonly string _fileName = "inventory_manager.json";
     private string _filePath;
 
-    private JSONStorage()
+    public JSONStorage()
     {
         string baseDirectory = Path.GetDirectoryName(AppContext.BaseDirectory) ?? string.Empty;
         _filePath = Path.Combine(baseDirectory, _directoryName, _fileName);
@@ -81,4 +82,6 @@ public class JSONStorage
         _objects.Clear();
         Save();
     }
+}
+
 }

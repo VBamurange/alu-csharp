@@ -1,5 +1,4 @@
 using System;
-
 public class Inventory: BaseClass {
 
     public string? user_id { get; set; }
@@ -18,3 +17,4 @@ public class Inventory: BaseClass {
     }
     
 }
+
