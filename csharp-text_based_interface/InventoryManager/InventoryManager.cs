@@ -8,6 +8,7 @@ using InventoryLibrary;
 
         static void Main(string[] args)
         {
+            
             LoadObjects();
             ShowInitialPrompt();
 
@@ -162,9 +163,9 @@ using InventoryLibrary;
                     {
                         var item = new Item(itemName)
                         {
-                            Description = itemDescription,
+                            description = itemDescription,
                             Price = itemPrice,
-                            Tags = new List<string>()
+                            tags = new List<string>()
                         };
                         _storage.New(item);
                     }
@@ -243,5 +244,6 @@ using InventoryLibrary;
             }
         }
     }
+
 
 
