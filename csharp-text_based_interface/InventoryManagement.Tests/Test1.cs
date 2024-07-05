@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using InventoryLibrary;
 using Xunit;
 
-namespace InventoryTests
+namespace InventoryManagement.Tests
 {
     public class InventoryTests
     {
