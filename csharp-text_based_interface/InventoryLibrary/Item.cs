@@ -1,7 +1,7 @@
 using System;
 
 public class Item: BaseClass {
-    public string? name { get; set; }
+    public string? iName { get; set; }
 
     public string? description { get; set; }
 
@@ -13,7 +13,7 @@ public class Item: BaseClass {
 
    public List<string>? tags = new List<string>();
 
-   public Item(string name) {
-    this.name = name; 
+   public Item(string iName) {
+    this.iName = iName; 
    }
 }

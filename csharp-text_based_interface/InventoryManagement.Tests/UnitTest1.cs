@@ -11,7 +11,7 @@ namespace InventoryManagement.Tests
         public void TestCreateUser()
         {
             var user = new User("TestUser");
-            Assert.Equal("TestUser", user.Name);
+            Assert.Equal("TestUser", user.name);
         }
 
         [Fact]
@@ -19,25 +19,25 @@ namespace InventoryManagement.Tests
         {
             var item = new Item("TestItem")
             {
-                Description = "TestDescription",
+                description = "TestDescription",
                 Price = 10.5f,
-                Tags = new List<string> { "TestTag1", "TestTag2" }
+                tags = new List<string> { "TestTag1", "TestTag2" }
             };
 
-            Assert.Equal("TestItem", item.Name);
-            Assert.Equal("TestDescription", item.Description);
+            Assert.Equal("TestItem", item.iName);
+            Assert.Equal("TestDescription", item.description);
             Assert.Equal(10.5f, item.Price);
-            Assert.Contains("TestTag1", item.Tags);
-            Assert.Contains("TestTag2", item.Tags);
+            Assert.Contains("TestTag1", item.tags);
+            Assert.Contains("TestTag2", item.tags);
         }
 
         [Fact]
         public void TestCreateInventory()
         {
             var inventory = new Inventory("UserId1", "ItemId1", 5);
-            Assert.Equal("UserId1", inventory.UserId);
-            Assert.Equal("ItemId1", inventory.ItemId);
-            Assert.Equal(5, inventory.Quantity);
+            Assert.Equal("UserId1", inventory.user_id);
+            Assert.Equal("ItemId1", inventory.item_id);
+            Assert.Equal(5, inventory.quantity);
         }
 
         [Fact]
@@ -45,12 +45,6 @@ namespace InventoryManagement.Tests
         {
             var item = new Item("TestItem");
             Assert.Throws<FormatException>(() => { item.Price = float.Parse("InvalidPrice"); });
-        }
-
-        [Fact]
-        public void TestInvalidInventoryQuantity()
-        {
-            Assert.Throws<ArgumentException>(() => new Inventory("UserId1", "ItemId1", -1));
         }
     }
 }

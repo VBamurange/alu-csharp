@@ -6,10 +6,10 @@ public class Inventory: BaseClass {
     public int quantity = 1;
         
         public Inventory(string user_id, string item_id, int quantity = 1) {
-        user_id = user_id;
-        item_id = item_id;
+        this.user_id = user_id;
+        this.item_id = item_id;
       
-      if(this.quantity < 0) {
+      if(quantity < 0) {
         this.quantity = 0;
       } else {
         this.quantity = quantity;
